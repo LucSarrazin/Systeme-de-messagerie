@@ -39,7 +39,7 @@ Avant d'installer le projet, assurez-vous d'avoir :
    ```
 
 3. Configurez la base de données :
-   - Importez le fichier `database.sql` dans votre gestionnaire de base de données (ex. phpMyAdmin).
+   - Importez le fichier `mydata.sql` dans votre gestionnaire de base de données (ex. phpMyAdmin).
    - Modifiez le fichier `config.php` pour y ajouter vos informations de connexion MySQL.
 
 4. Lancez un serveur local et accédez au projet via l'URL locale (ex. `http://localhost/Systeme-de-messagerie`).
