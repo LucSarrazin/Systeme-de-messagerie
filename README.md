@@ -8,8 +8,7 @@ Ce dépôt contient le code source d'un **système de messagerie**, permettant d
 
 - **Inscription et connexion utilisateur** : Système sécurisé d'authentification.
 - **Envoi de messages** : Les utilisateurs peuvent envoyer des messages privés.
-- **Boîte de réception et d'envoi** : Vue des messages reçus et envoyés.
-- **Suppression de messages** : Gestion et nettoyage de la boîte aux lettres.
+- **Boîte de réception et d'envoi** : Vue des messages reçus.
 - **Sécurité** : Les mots de passe sont chiffrés et les données sensibles protégées.
 
 ## Technologies utilisées
