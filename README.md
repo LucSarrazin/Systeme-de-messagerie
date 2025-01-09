@@ -65,4 +65,4 @@ Les contributions sont les bienvenues ! Si vous souhaitez proposer des amélio
 
 ## Contact
 
-Pour toute question ou collaboration, n'hésitez pas à me contacter à l'adresse suivante : [luc.sarrazin@free.fr](mailto:luc.sarrazin@free.fr).
+Ce projet est un projet scolaire personnel. Il est destiné à des fins éducatives et ne doit pas être utilisé à des fins commerciales.
