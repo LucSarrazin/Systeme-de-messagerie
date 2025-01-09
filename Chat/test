@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JavaScript.js"></script>
+    <title>Page de chat</title>
+</head>
+<body>
+    <h1>Bonjour <?php echo $_SESSION['Nom']?></h1>
+    <form method="post" action="">
+        <h4>Pseudo :</h4>
+        <input type="text" placeholder="Username" disabled="true" id="Username" value="<?php echo $_SESSION['Nom']?>">
+        <br>
+        <h4>Entrez un message :</h4>
+        <input type="text" id="message" name="Texte">
+        <input type="Submit" name="Submit" id="Submit">
+    </form>
+
+    <script>
+        document.getElementById("message").autofocus
+        texte = document.getElementById("message");
+        submit = document.getElementById("Submit");
+        TimeOut = setTimeout(function() {
+        if (!texte.matches(':focus')) {
+            window.location.reload();
+        }
+        }, 3000);
+
+
+        texte.addEventListener('focus', function() {
+            clearTimeout(timeoutId);
+            console.log('focus');
+        });
+
+        texte.addEventListener('blur', function() {
+            console.log('not focus');
+            setTimeout(() => {
+                window.location.reload();
+            }, 3000);
+        });
+
+        // Add a listener for the 'keydown Enter' event on the form
+        texte.form.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                // Prevent the default form submission behavior
+                event.preventDefault();
+            }
+        });
+
+        submit.addEventListener('focus', function() {
+            clearTimeout(TimeOut);
+        });
+    </script>
+<h3>
+    <?php
+    if ($requete->num_rows > 0) {
+        // output data of each row
+        while($row = $requete->fetch_assoc()) {
+            $utilisateur = $row['Username'];
+            $message = $row['Message'];
+            echo ("L'utilisateur $utilisateur à dit : $message .<br>");
+        }
+    } else {
+        echo "0 chats actuellement !";
+    }
+    ?>
+</h3>
+</body>
+</html>
