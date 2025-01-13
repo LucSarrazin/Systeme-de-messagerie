@@ -4,7 +4,7 @@
 
 * [Description](#description)
 * [Fonctionnalités](#fonctionnalités)
-* [Technologies Utilisées](#Technologies)
+* [Technologies utilisées](#technologiesutilisées)
 * [Prérequis](#prérequis)
 * [Installation](#installation)
 * [Aperçu](#aperçu)
