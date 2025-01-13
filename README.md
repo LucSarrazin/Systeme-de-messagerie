@@ -1,5 +1,17 @@
 # Systeme-de-Messagerie
 
+## Table des matières
+
+* [Description](#description)
+* [Fonctionnalités](#fonctionnalités)
+* [Technologies Utilisées](#Technologies)
+* [Prérequis](#prérequis)
+* [Installation](#installation)
+* [Aperçu](#aperçu)
+* [Contribution](#contribution)
+* [License](#license)
+
+
 ## Description
 
 Ce dépôt contient le code source d'un **système de messagerie**, permettant d'envoyer, recevoir et gérer des messages entre utilisateurs. Ce projet a été conçu pour mettre en pratique des compétences en développement web backend et en gestion de bases de données.
@@ -62,6 +74,6 @@ Les contributions sont les bienvenues ! Si vous souhaitez proposer des amélio
    ```
 - Envoyez une pull request.
 
-## Contact
+## License
 
 Ce projet est un projet scolaire personnel. Il est destiné à des fins éducatives et ne doit pas être utilisé à des fins commerciales.
