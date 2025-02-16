@@ -1,4 +1,4 @@
-# Systeme-de-Messagerie
+# Systeme-de-Messagerie sans framework
 
 ## Table des matières
 
